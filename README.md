@@ -21,10 +21,18 @@
 5. 点击「生成 ICS 文件」并下载
 6. 导入到 Google / Apple / Outlook 日历即可
 
+
 ---
 
-## 🛠 本地运行 · Run Locally
 
-```bash
-pip install -r requirements.txt
-python app.py
+## 📄 作者 / Author
+© Made by 管永川 · 2025
+欢迎改进或 Fork 本项目
+
+## 🌟 计划功能 / Roadmap
+- [ ] 支持多个人批量生成
+- [ ] 支持上传 Excel 批量生成
+- [ ] 支持阳历生日转换到农历
+- [ ] 允许自定义提醒天数
+- [ ] 加入深色模式 / Dark Mode
+
