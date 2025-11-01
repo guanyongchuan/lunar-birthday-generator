@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>农历生日提醒生成器</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🎂 农历生日提醒生成器</h2>
+        <p>自动生成 40 年农历生日提醒，可导入 Google / Apple / Outlook 日历</p>
+
+        <form method="POST">
+            <label>姓名 / Name</label>
+            <input type="text" name="name" placeholder="例如：张三 / Alice" required>
+
+            <label>农历生日 / Lunar Birthday</label>
+            <input type="text" name="lunar" placeholder="格式：月-日，例如 8-16" required>
+
+            <label>生成范围 / Years</label>
+            <select name="years" required>
+                <option value="20">20 年</option>
+                <option value="30">30 年</option>
+                <option value="40" selected>40 年</option>
+                <option value="60">60 年</option>
+            </select>
+
+            <button type="submit">✅ 生成 ICS 文件</button>
+        </form>
+
+        <footer>© Made by 管永川 · 2025</footer>
+    </div>
+</body>
+</html>
